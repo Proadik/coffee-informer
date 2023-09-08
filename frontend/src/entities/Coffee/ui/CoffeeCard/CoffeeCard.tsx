@@ -5,10 +5,11 @@ import styles from './CoffeeCard.module.scss';
 
 type CoffeeCardProps = {
   coffeeItem: Coffee;
+  onClick: Function;
 }
 
-export const CoffeeCard = ({ coffeeItem }: CoffeeCardProps) => (
-  <div className={styles.root}>
+export const CoffeeCard = ({ coffeeItem, onClick }: CoffeeCardProps) => (
+  <div className={styles.root} onClick={() => onClick(coffeeItem.uid)}>
     <div className={styles.image}>
       <Image
         fill

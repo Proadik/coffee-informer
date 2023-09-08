@@ -13,8 +13,10 @@ html, body {
 
 // timer
 .auto-fetch-timer {
+  text-align: center;
+
   .ant-statistic-title {
-    color: #fff;
+    color: #000;
     font-size: 12px;
   }
 
@@ -24,6 +26,6 @@ html, body {
   }
 
   .ant-statistic-content-value {
-    color: #fff;
+    color: #000;
   }
 }
