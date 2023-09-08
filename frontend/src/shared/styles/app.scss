@@ -1,0 +1,29 @@
+@import "~normalize-scss/sass/normalize/import-now";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+// timer
+.auto-fetch-timer {
+  .ant-statistic-title {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .ant-statistic-content{
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .ant-statistic-content-value {
+    color: #fff;
+  }
+}
