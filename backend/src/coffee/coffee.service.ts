@@ -54,4 +54,18 @@ export class CoffeeService {
 
     return this.fetchData();
   }
+
+  async getById(id: string) {
+    if (!id) {
+      return;
+    }
+
+    const cachedCoffee = await this.cacheManager.get(id);
+
+    if (cachedCoffee) {
+      return cachedCoffee;
+    }
+
+    return null;
+  }
 }
