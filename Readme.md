@@ -1,4 +1,4 @@
-#About:
+#About: <br/><br/>
 Frontend - Next JS <br/>
 Backend - Nest JS <br />
 Caching - inner Nest JS cache
