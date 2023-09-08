@@ -1,9 +1,9 @@
-##About:
+#About:
 Frontend - Next JS <br/>
 Backend - Nest JS <br />
 Caching - inner Nest JS cache
 
-##Todo:
+#Todo:
 ```sh
 1. docker-compose build
 2. docker-compose up
