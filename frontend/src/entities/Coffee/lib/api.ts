@@ -1,11 +1,11 @@
-import axios from 'axios';
+import { BaseClient } from '@/shared';
 
 export const fetchLatestCoffee = async () => {
-  const req = await axios.get('http://localhost:3005/coffee/latest');
+  const req = await BaseClient.get('/coffee/latest');
   return req.data;
 };
 
 export const fetchNewCoffee = async () => {
-  const req = await axios.get('http://localhost:3005/coffee/new');
+  const req = await BaseClient.get('/coffee/new');
   return req.data;
 };
